@@ -78,10 +78,10 @@
           <!-- <a href="<?php echo site_url('laporan/create') ?>" class="btn btn-flat btn-primary">Tambah Laporan</a>
           <button type="button" class="btn btn-flat btn-danger pull-right" data-toggle="modal" data-target="#print-mod"><i class="fa fa-print" aria-hidden="true"></i> Print</button>&nbsp;&nbsp;&nbsp; -->
           <?php
-          $role = $this->session->userdata('role'); 
-          if ($role == 1) {
-            echo '<button style="margin-right:10px !important" type="button" class="btn btn-flat btn-warning pull-right" data-toggle="modal" data-target="#print-mod2"><i class="fa fa-print" aria-hidden="true"></i> Print Rekap</button>';
-          }
+          // $role = $this->session->userdata('role'); 
+          // if ($role == 1) {
+          //   echo '<button style="margin-right:10px !important" type="button" class="btn btn-flat btn-warning pull-right" data-toggle="modal" data-target="#print-mod2"><i class="fa fa-print" aria-hidden="true"></i> Print Rekap</button>';
+          // }
           ?>
 
           <div class="modal fade" id="print-mod">
